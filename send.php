@@ -10,7 +10,7 @@ fucntion line_notify($Token, $message)
 	$mms =  trim($message); // ข้อความที่ต้องการส่ง
 	date_default_timezone_set("Asia/Bangkok");
 	$chOne = curl_init(); 
-	curl_setopt( $chOne, CURLOPT_URL, "https://notify-api.line.me/api/notify"); 
+	curl_setopt( $chOne, CURLOPT_URL, "https://api.line.me/v2/bot/message/reply"); 
 	// SSL USE 
 	curl_setopt( $chOne, CURLOPT_SSL_VERIFYHOST, 0); 
 	curl_setopt( $chOne, CURLOPT_SSL_VERIFYPEER, 0); 
