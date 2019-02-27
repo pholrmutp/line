@@ -1,7 +1,5 @@
 <?php
 
-echo "Hello LINE BOT";
-
 /// การตั้งค่าเกี่ยวกับ bot ใน LINE Messaging API
 define('LINE_MESSAGE_CHANNEL_ID','1646568188');
 define('LINE_MESSAGE_CHANNEL_SECRET','369c8c5d03cea66d8d167ed377f61598');
